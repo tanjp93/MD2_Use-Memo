@@ -31,6 +31,7 @@ const Content = () => {
         // setTotal(preTotal => preTotal + price)
         setName("")
         setPrice("")
+        nameref.current.focus()
     }
     return (
         <div>
